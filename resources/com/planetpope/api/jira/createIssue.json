@@ -8,6 +8,9 @@
        \"description\": \"$description\",
        \"issuetype\": {
           \"name\": \"$issueTypeName\"
-       }
+       },
+       \"labels\": \"$labels\",
+       \"assignee\": \"$assignee\",
+       \"state\": \"$state\"
    }
 }
