@@ -8,7 +8,7 @@ pipeline{
     stages {
         stage('create issue') {
             steps {
-                jiraCreateIssue(key:"SCRUM",summary:"Pxx P800 2026", description: "Daily build", issueTypeName:"Story", labels:["New"], storyPoints: "2")
+                jiraCreateIssue(key:"SCRUM",summary:"Pxx P800 2026", description: "Daily build", issueTypeName:"Story", labels:"New")
             }
         }
     }
