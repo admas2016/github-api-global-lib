@@ -11,6 +11,6 @@
        },
        \"labels\": \"$labels\",
        \"assignee\": \"$assignee\",
-       \"state\": \"$state\"
+       \"status\": \"$status\"
    }
 }
