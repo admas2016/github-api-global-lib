@@ -9,9 +9,7 @@
           \"name\": \"$issueTypeName\"
        },
        \"assignee\": \"$assignee\",
-       \"issuerestriction\": {
-         \"customfield_10016\": \"$storyPoints\",
-         \"labels\": \"$labels\"
-       }
+       \"customfield_10016\": \"$storyPoints\",
+       \"labels\": \"$labels\"
    }
 }
