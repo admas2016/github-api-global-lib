@@ -6,7 +6,7 @@ def call(Map config=[:]) {
     description: "${config.description}",
     issueTypeName: "${config.issueTypeName}",
     assignee: "${config.assignee}",
-    storyPoints : ${config.storyPoints},
+    storyPoints : "${config.storyPoints}",
     labels : "${config.labels}"
   ]
   def render = renderTemplate(rawBody,binding)

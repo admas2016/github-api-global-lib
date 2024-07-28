@@ -9,7 +9,7 @@
           \"name\": \"$issueTypeName\"
        },
        \"assignee\": \"$assignee\",
-       \"customfield_10016\": \"$storyPoints\",
+       \"customfield_10016\": 2,
        \"labels\": \"$labels\"
    }
 }
