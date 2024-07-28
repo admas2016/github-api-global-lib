@@ -10,7 +10,6 @@
           \"name\": \"$issueTypeName\"
        },
        \"labels\": \"$labels\",
-       \"assignee\": \"$assignee\",
-       \"status\": \"$status\"
+       \"assignee\": \"$assignee\"
    }
 }
