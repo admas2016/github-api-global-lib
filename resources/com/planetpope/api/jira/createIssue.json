@@ -8,8 +8,8 @@
        \"issuetype\": {
           \"name\": \"$issueTypeName\"
        },
-       \"assignee\": "Adriana Av",
+       \"assignee\": \"Adriana Av\",
        \"customfield_10016\": 2,
-       \"labels\": "New"
+       \"labels\": \"New\"
    }
 }
