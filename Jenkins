@@ -1,0 +1,15 @@
+@Library("shared-library") _
+pipeline{
+    agent any
+    environment {
+        JIRA_URL = "https://adrianaavsu.atlassian.net/"
+        JIRA_CREDENTIALS = credentials('jira-rest-api')
+    }
+    stages {
+        stage('create issue') {
+            steps {
+                jiraCreateIssue(key:"SCRUM",summary:"Pxx P800 2026", description: "Daily build", issueTypeName:"Story", labels:["New"], storyPoints: "2")
+            }
+        }
+    }
+}

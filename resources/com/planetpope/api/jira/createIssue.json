@@ -1,8 +1,7 @@
 {
     \"fields\": {
-       \"project\":
-       {
-          \"key\": \"$key\"
+       \"project\": {
+         \"key\": \"$key\"
        },
        \"summary\": \"$summary\",
        \"description\": \"$description\",
@@ -10,6 +9,9 @@
           \"name\": \"$issueTypeName\"
        },
        \"assignee\": \"$assignee\",
-       \"storypoints\": \"$storyPoints\"
+       \"issuerestriction\": {
+         \"customfield_10016\": \"$storyPoints\",
+         \"labels\": \"$labels\"
+       }
    }
 }
