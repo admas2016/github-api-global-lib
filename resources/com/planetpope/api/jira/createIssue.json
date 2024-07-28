@@ -9,7 +9,6 @@
        \"issuetype\": {
           \"name\": \"$issueTypeName\"
        },
-       \"labels\": \"$labels\",
        \"assignee\": \"$assignee\"
    }
 }
